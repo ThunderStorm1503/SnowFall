@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">SnowFall</string>
+    <string name="text">My NanoDegree Apps</string>
+    <string name="button1">POPULAR MOVIES</string>
+    <string name="button2">STOCK HAWK</string>
+    <string name="button3">BUILD BUGGER</string>
+    <string name="button4">MAKE YOUR APP MATERIAL</string>
+    <string name="button5">GO UBIQUITOUS</string>
+    <string name="button6">CAPSTONE</string>
 </resources>
