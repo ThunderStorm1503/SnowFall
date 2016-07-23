@@ -46,30 +46,32 @@ public class MainActivity extends AppCompatActivity {
     private class MyClickListener implements View.OnClickListener {
         @Override
         public void onClick(View view) {
-            int id=view.getId();
-            switch (id){
-                case(R.id.button1):
-                    showToast("Popular Movie Message");
-                    break;
-                case(R.id.button2):
-                    showToast("STOCK HAWK");
-                    break;
-                case(R.id.button3):
-                    showToast("BUILD BUGGER");
-                    break;
-                case(R.id.button4):
-                    showToast("MAKE YOUR APP MATERIAL");
-                    break;
-                case(R.id.button5):
-                    showToast("GO UBIQUITOUS");
-                    break;
-                case(R.id.button6):
-                    showToast("CAPSTONE");
-                    break;
-                default:
-                    showToast("Some Thing ERROR!");
-                    break;
-            }
+//            int id=view.getId();
+//            switch (id){
+//                case(R.id.button1):
+//                    showToast("Popular Movie Message");
+//                    break;
+//                case(R.id.button2):
+//                    showToast("STOCK HAWK");
+//                    break;
+//                case(R.id.button3):
+//                    showToast("BUILD BUGGER");
+//                    break;
+//                case(R.id.button4):
+//                    showToast("MAKE YOUR APP MATERIAL");
+//                    break;
+//                case(R.id.button5):
+//                    showToast("GO UBIQUITOUS");
+//                    break;
+//                case(R.id.button6):
+//                    showToast("CAPSTONE");
+//                    break;
+//                default:
+//                    showToast("Some Thing ERROR!");
+//                    break;
+//            }
+            Button button=(Button)view;
+            showToast(button.getText().toString());
         }
     }
 
